@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="967587f0-f78e-45fe-8f39-adc9f8cd7947" name="Default Changelist" comment="" />
+    <list default="true" id="967587f0-f78e-45fe-8f39-adc9f8cd7947" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AllPosts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AllPosts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ShowPost.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ShowPost.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -135,6 +146,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -147,6 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622547954622</updated>
       <workItem from="1622547956117" duration="102000" />
+      <workItem from="1622549623731" duration="429000" />
+      <workItem from="1622550063245" duration="371000" />
     </task>
     <servers />
   </component>

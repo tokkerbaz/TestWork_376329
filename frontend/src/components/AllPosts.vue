@@ -20,7 +20,7 @@
       <tr v-for="post in posts" :key="post.id">
         <td>{{ post.id }}</td>
         <td>{{ post.author.name }}</td>
-        <td>{{ post.title }}</td>
+        <td><router-link :to="{name: 'show', params: { slug: post.slug }}" class="">{{ post.title }}</router-link></td>
         <td>{{ post.excerpt }}</td>
         <td><img :src="generateImage(post.image)" :alt="post.title"></td>
         <td>{{ post.status }}</td>

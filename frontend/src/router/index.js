@@ -50,7 +50,7 @@ const routes = [
     },
     {
         name: 'show',
-        path: '/:id',
+        path: '/:slug',
         meta: {
             auth: true
         },

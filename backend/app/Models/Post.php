@@ -12,6 +12,18 @@ class Post extends Model
 
     protected $fillable = ['title', 'excerpt','seo_title','meta_keywords','meta_description','featured','body','author_id','slug','date','image','status'];
 
+
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
     public function author()
     {
         return $this->belongsTo(User::class);
